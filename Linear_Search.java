@@ -1,7 +1,7 @@
 public class Linear_Search {
     public static void main(String[] args) {
         String name = "abcdefsad";
-        char target= 'd';
+        char target= 'e';
         System.out.println(search(name,target));
 
     }
