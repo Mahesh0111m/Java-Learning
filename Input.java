@@ -4,6 +4,7 @@ public class Input {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int[] arr=new int[5];
+        System.out.println("Input for arrays");
 
 //        arr[0]=1;
 //        arr[1]=32;
@@ -28,8 +29,10 @@ public class Input {
         for (int j : arr) {  // for every element  in array print the element
 
             System.out.println(j + " ");
+
         }
     }
 
-///
+
+
 }
