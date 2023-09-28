@@ -6,7 +6,7 @@ public class Input {
         Scanner in = new Scanner(System.in);
 
         //array of primitives
-
+      //datatype[] variable =new datatype[size];
         int[] arr=new int[5];
         System.out.println("Input for arrays");
 
@@ -53,6 +53,7 @@ public class Input {
         }
 
         System.out.println(Arrays.toString(str));
+
 
         }
     }
