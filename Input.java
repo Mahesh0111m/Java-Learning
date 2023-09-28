@@ -4,6 +4,9 @@ import java.util.Scanner;
 public class Input {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
+
+        //array of primitives
+      //datatype[] variable =new datatype[size];
         int[] arr=new int[5];
         System.out.println("Input for arrays");
 
@@ -13,7 +16,7 @@ public class Input {
 //        arr[3]=202;
 //        arr[4]=45;
 
-        System.out.println(arr[4]);
+        //System.out.println(arr[4]);
 
         for(int i=0;i<arr.length;i++)
         {
@@ -37,6 +40,19 @@ public class Input {
 
 
 
+// array of objects
+
+        // input for string
+
+        System.out.println("Input for string");
+
+        String[] str = new String[5];
+        for(int i=0;i<str.length;i++)
+        {
+            str[i]=in.next();
+        }
+
+        System.out.println(Arrays.toString(str));
 
 
         }
