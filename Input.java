@@ -16,7 +16,7 @@ public class Input {
 //        arr[3]=202;
 //        arr[4]=45;
 
-        System.out.println(arr[4]);
+        //System.out.println(arr[4]);
 
         for(int i=0;i<arr.length;i++)
         {
@@ -41,6 +41,11 @@ public class Input {
 
 
 // array of objects
+
+        // input for string
+
+        System.out.println("Input for string");
+
         String[] str = new String[5];
         for(int i=0;i<str.length;i++)
         {
