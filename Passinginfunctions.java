@@ -12,6 +12,7 @@ public class Passinginfunctions {
     static void change(int[] arr){
         arr[0]=100;
 
-
+//
+        arr[0]=99;
     }
 }
