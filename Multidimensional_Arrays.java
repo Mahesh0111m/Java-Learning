@@ -1,5 +1,6 @@
-public class Arrays_2d {
+public class Multidimensional_Arrays {
     public static void main(String[] args) {
+
 
 
 
