@@ -10,9 +10,11 @@ public class Passinginfunctions {
 
     }
     static void change(int[] arr){
-        arr[0]=100;
+        //changing the values of array
+        //using reference
         arr[1]=101;
-
+        arr[2]=833;
+        arr[4]=493;
 
 
 
