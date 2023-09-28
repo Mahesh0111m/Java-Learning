@@ -11,8 +11,10 @@ public class Passinginfunctions {
     }
     static void change(int[] arr){
         arr[0]=100;
+        arr[1]=101;
+        arr[2]=102;
 
-//
-        arr[0]=99;
+
+
     }
 }
