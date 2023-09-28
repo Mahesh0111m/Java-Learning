@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Input {
@@ -26,13 +27,21 @@ public class Input {
 
         //for each loop
 
-        for (int j : arr) {  // for every element  in array print the element
+//        for (int j : arr) {
+//            System.out.println(j + " ");
+//        }
 
-            System.out.println(j + " ");
+        //Arrays.toString(pass array)
+
+        System.out.println(Arrays.toString(arr));
+
+
+
+
 
         }
     }
 
 
 
-}
+
