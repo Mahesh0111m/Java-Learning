@@ -48,13 +48,23 @@ public class Multidimensional_Arrays {
         // we can also print using arrays.tostring()
 
         System.out.println("printing using arrays.tostring()");
+        for (int row = 0; row < arr.length; row++) {
 
-        for (int row = 0; row < arr.length; row++){
-            //row 1d array we just passed array
-            // for 2d array we pass arr[row] as each row is separate array.
             System.out.println(Arrays.toString(arr[row]));
+
+        }
+
+        System.out.println("using for each loop");
+
+        for (int[] ints : arr) {
+
+            System.out.println(Arrays.toString(ints));
+
+        }
+
         }
 
 
+
     }
-}
+
