@@ -56,6 +56,8 @@ public class Multidimensional_Arrays {
 
         System.out.println("using for each loop");
 
+        // for each loop for 2d array
+
         for (int[] ints : arr) {
 
             System.out.println(Arrays.toString(ints));
