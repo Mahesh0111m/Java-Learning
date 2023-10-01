@@ -15,5 +15,6 @@ public class Var_Args {
 
     static void fun2(String ...v){
         System.out.println(Arrays.toString(v));
+        //
     }
 }
