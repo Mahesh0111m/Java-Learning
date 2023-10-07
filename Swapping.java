@@ -16,3 +16,4 @@ public class Swapping {
         arr[index2]=temp;
     }
 }
+
