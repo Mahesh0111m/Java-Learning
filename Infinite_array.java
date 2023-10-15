@@ -9,6 +9,7 @@ public class Infinite_array {
         int answer = ans(arr,target);
         System.out.println(answer);
 
+
     }
 
     static int ans(int[] arr,int target){
